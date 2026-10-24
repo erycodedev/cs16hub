@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cs16hub.fun/sitemap.xml

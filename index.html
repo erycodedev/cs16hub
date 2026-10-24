@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS16HUB.FUN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <nav class="site-navbar" aria-label="Navegação principal">
+    <div class="navbar-container">
+      <div class="navbar-brand">
+        <span class="brand-highlight">CS16HUB.FUN</span>
+      </div>
+
+      <button class="navbar-toggle" aria-expanded="false" aria-controls="navbar-menu" aria-label="Abrir menu">
+        <span class="hamburger">☰</span>
+      </button>
+
+      <div class="navbar-menu" id="navbar-menu">
+        <div class="navbar-section">
+          <button class="navbar-dropdown-toggle navbar-download-btn" aria-expanded="false" aria-controls="dropdown-clientes">
+            Baixar Jogo <span class="dropdown-arrow">▼</span>
+          </button>
+          <div class="navbar-dropdown" id="dropdown-clientes">
+            <a href="https://url.csrevo.com/getcsnew" target="_blank" rel="noopener noreferrer" class="navbar-link">
+              <span class="link-name">Cliente 01 — CSRevo</span>
+            </a>
+            <a href="https://dl.ms-csnv.ru/downloads/cs_16_clean_eng.exe" target="_blank" rel="noopener noreferrer" class="navbar-link">
+              <span class="link-name">Cliente 02 — down-cs.su</span>
+            </a>
+            <a href="https://www.mediafire.com/file/s0hgwjcf3gs0o64/Counter_Strike_1.6_linux_con_bots_by_canteroman.7z/file" target="_blank" rel="noopener noreferrer" class="navbar-link">
+              <span class="link-name">Cliente 03 — Versão Linux</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar-section">
+          <button class="navbar-dropdown-toggle" aria-expanded="false" aria-controls="dropdown-utilitarios">
+            Utilitários <span class="dropdown-arrow">▼</span>
+          </button>
+          <div class="navbar-dropdown" id="dropdown-utilitarios">
+            <a href="https://www.mediafire.com/file/kzhunuomzcp7u1x/bandcam.zip/file" target="_blank" rel="noopener noreferrer" class="navbar-link">
+              <span class="link-name">Bandicam</span>
+            </a>
+            <a href="https://www.mediafire.com/file/9ytu4vudnn38mto/TeamSpeak_Client_%252864bit%2529_v3.5.6.rar/file" target="_blank" rel="noopener noreferrer" class="navbar-link">
+              <span class="link-name">TeamSpeak</span>
+            </a>
+
+            <div class="navbar-separator">
+              <span>Windows 10</span>
+            </div>
+
+            <a href="https://www.mediafire.com/file/roohw1qk8ewcaek/WINDOWS10_TURBO_22H2_X_AIOV2_2023.rar/file" target="_blank" rel="noopener noreferrer" class="navbar-link">
+              <span class="link-name">Iso Windows 10 Lite</span>
+            </a>
+            <a href="https://www.mediafire.com/file/4noqaq9mf74xd4m/Re-Loader.zip/file" target="_blank" rel="noopener noreferrer" class="navbar-link">
+              <span class="link-name">Ativador Windows 10</span>
+            </a>
+
+            <div class="navbar-password-dropdown">
+              <strong>Senha de extração:</strong> <code>159</code>
+              <span class="password-desc">Usar ao descompactar arquivos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-section">
+          <a href="https://www.gametracker.com/search/cs/BR/" target="_blank" rel="noopener noreferrer" class="navbar-link navbar-direct">
+            <span class="link-name">Mais Servidores</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="container">
+      <header>
+        <h1>Servidores mais jogados</h1>
+        <p>Lista de servidores Counter-Strike 1.6</p>
+      </header>
+
+      <div class="table-card">
+        <table>
+          <thead>
+            <tr>
+              <th>Servidor</th>
+              <th>IP : Porta</th>
+              <th style="text-align: right;">Ação</th>
+            </tr>
+          </thead>
+          <tbody id="server-list">
+            <tr>
+              <td class="server-name">INFINIX SERVER [ #DM|FFA ]</td>
+              <td><span class="server-ip">200.158.211.61:27016</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">CS DOS AMIGOS [4FUN] #BORAJOGAR</td>
+              <td><span class="server-ip">131.196.198.52:27015</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">ARGENTINA CS DUST2</td>
+              <td><span class="server-ip">45.235.98.59:27015</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">ARGENTINA CS DUST2 CLASICO</td>
+              <td><span class="server-ip">45.235.98.62:27015</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">ARGENTINA CS #1 SOLO INFERNO</td>
+              <td><span class="server-ip">45.235.98.44:27035</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">#1 EL VERDADERO PUB ARGENTINO</td>
+              <td><span class="server-ip">45.235.99.105:27057</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">[ANONGHOST] [BR] [CSDM-FFA]</td>
+              <td><span class="server-ip">45.146.81.208:27501</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">#6 BREAKING GAMING [DEATHMATCH+FFA]</td>
+              <td><span class="server-ip">45.235.98.66:27028</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">#7 BREAKING GAMING [PUBLICO NO-SXE]</td>
+              <td><span class="server-ip">45.235.98.66:27038</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">LOS VAGOS - #1 [PUBLICO]</td>
+              <td><span class="server-ip">45.235.98.65:27059</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">#1 [PUB] Padre Mago y Asociados 420</td>
+              <td><span class="server-ip">45.235.98.74:27020</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">#01 [Alta-Fruta] Only de_dust2</td>
+              <td><span class="server-ip">45.235.98.120:27015</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">[Patagonia-Strike.com] PUBLICO</td>
+              <td><span class="server-ip">45.235.99.105:27047</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">#02 Unique Style | [AUTOMIX]</td>
+              <td><span class="server-ip">45.235.98.68:27015</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">#2 BRICKGAME.NET [AUTOMIX]</td>
+              <td><span class="server-ip">45.235.98.68:27068</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="server-name">#4 ROLYGAMING [RECOIL] [AUTOMIX 4]</td>
+              <td><span class="server-ip">45.235.98.48:27019</span></td>
+                            <td style="text-align: right;">
+                <button class="copy-btn">Copiar IP</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p class="footer-copyright">© 2024 CS16HUB.FUN. Todos os direitos reservados.</p>
+      <p class="footer-disclaimer">Os links de download são de terceiros. Não nos responsabilizamos pelo conteúdo externo.</p>
+    </div>
+  </footer>
+
+  <button id="back-to-top" title="Voltar ao topo">↑</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
