@@ -778,5 +778,128 @@ tr:hover {
   }
 }
 
+/* Requirements Section */
+.requirements-section {
+  padding: 48px 15px;
+  margin-bottom: 48px;
+}
+.requirements-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.requirements-intro {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  max-width: 720px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.requirement-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 32px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.requirement-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px -5px rgba(0,0,0,0.6);
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--card-border);
+}
+.card-header i {
+  font-size: 1.4rem;
+  color: var(--accent-green);
+}
+.card-header h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-header h3 i {
+  color: var(--accent-green);
+  font-size: 1.4rem;
+}
+.card-subtitle {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: -8px 0 16px 0;
+}
+.card-note {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--card-border);
+}
+.requirements-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.requirements-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.requirements-list li:last-child {
+  margin-bottom: 0;
+}
+.requirements-list li i {
+  color: var(--text-muted);
+  margin-top: 3px;
+  min-width: 16px;
+}
+.requirements-list li strong {
+  color: #ffffff;
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+@media (max-width: 1024px) {
+  .requirements-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .requirements-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .requirements-title {
+    font-size: 1.7rem;
+  }
+  .requirement-card {
+    padding: 24px;
+  }
+}
+
 
 
